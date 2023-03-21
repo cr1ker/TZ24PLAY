@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.TZ_24Play_21.iml
+# Datasource local storage ignored files
+/../../../../../../../:\GitVersionControl\TZ_24Play_21\TZ_24Play_21\.idea\.idea.TZ_24Play_21\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
