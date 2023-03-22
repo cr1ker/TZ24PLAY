@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovingController : MonoBehaviour
@@ -17,11 +15,6 @@ public class PlayerMovingController : MonoBehaviour
         _player.position += Vector3.up * _jumpForce;
         _jumpAnimation.SetTrigger(_jumpTrigger);
     }
-    
-    private void Awake()
-    {
-        
-    }
 
     private void Update()
     {
@@ -30,10 +23,4 @@ public class PlayerMovingController : MonoBehaviour
             _player.position = new Vector3(_joystick.Horizontal * _movingSpeed, _player.transform.position.y, 0);
         }
     }
-
-    private void FixedUpdate()
-    {
-        
-    }
-    
 }

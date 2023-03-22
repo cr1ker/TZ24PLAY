@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class YellowStaticBox : MonoBehaviour
 {
@@ -18,7 +15,6 @@ public class YellowStaticBox : MonoBehaviour
         YellowMovingBox yellowMovingBox = other.attachedRigidbody.GetComponent<YellowMovingBox>();
         if (yellowMovingBox)
         {
-            //yellowMovingBox.GetIndexOfLastBoxListElement(_indexOfLastBoxListElement);
             yellowBoxController.OnTakeYellowBox();
             Destroy(gameObject);
         }
